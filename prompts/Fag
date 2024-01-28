@@ -1,0 +1,5 @@
+Instruction: Indicate if the passage is relevant for the question. Respond with 'Yes' or 'No'.
+
+Question: {{QUERY}}
+Passage: {{PASSAGE}}
+Answer:

@@ -1,0 +1,27 @@
+Instruction: Given a passage and a query, predict whether the passage includes an answer to the query by producing either "Yes" or "No".	
+
+Passage: Its 25 drops per ml, you guys are all wrong. If it is water, the standard was changed 15 - 20 years ago to make 20 drops = 1mL. The viscosity of most things is temperature dependent, so this would be at room temperature. Hope this helps.
+Query: how many eye drops per ml 
+Does the passage answer the query? 
+Answer: Yes 
+
+Passage: RE: How many eyedrops are there in a 10 ml bottle of Cosopt? My Kaiser pharmacy insists that 2 bottles should last me 100 days but I run out way before that time when I am using 4 drops per day.In the past other pharmacies have given me 3 10-ml bottles for 100 days.E: How many eyedrops are there in a 10 ml bottle of Cosopt? My Kaiser pharmacy insists that 2 bottles should last me 100 days but I run out way before that time when I am using 4 drops per day. 
+Query: how many eye drops per ml 
+Does the passage answer the query? 
+Answer: No 
+
+Passage: : You can transfer money to your checking account from other Wells Fargo. accounts through Wells Fargo Mobile Banking with the mobile app, online, at any. Wells Fargo ATM, or at a Wells Fargo branch. 1 Money in — deposits. 
+Query: can you open a wells fargo account online 
+Does the passage answer the query? 
+Answer: No 
+
+Passage: You can open a Wells Fargo banking account from your home or even online. It is really easy to do, provided you have all of the appropriate documentation. Wells Fargo has so many bank account options that you will be sure to find one that works for you. They offer free checking accounts with free online banking. 
+Query: can you open a wells fargo account online 
+Does the passage answer the query? 
+Answer: Yes	
+
+Passage: {{PASSAGE}}
+Query: {{QUERY}}
+
+Does the passage answer the qurey? 
+Answer:

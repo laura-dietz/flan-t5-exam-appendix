@@ -1,0 +1,1 @@
+Break the query '{query_title}' into concise questions that must be answered. Generate 10 concise insightful questions that reveal whether information relevant for '{query_title}' was provided, showcasing a deep understanding of the subject matter. Avoid basic or introductory-level inquiries. Keep the questions short and in a Python list format.

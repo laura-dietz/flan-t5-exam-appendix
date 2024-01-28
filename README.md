@@ -94,9 +94,57 @@ We implement Cohen's kappa as follows.
 
 ## Raw EXAM graded data
 
+ CAR Y3:  [CAR-graded-t5-rating-genq-tqa-rating-cc-exam-qrel-runs-result.jsonl.xz](EXAM-graded-data/CAR-graded-t5-rating-genq-tqa-rating-cc-exam-qrel-runs-result.jsonl.xz) 
+ 
+ This file contains  Passages from official qrels files and the top 20 (per section-level query) of all participant submitted run files
+
+
+ EXAM grades for 
+ 
+ *  TQA Exam Cover ( TQA questions, verification with QA and Answer Verification): 
+   * `"llm": "google/flan-t5-large"`
+   * `"prompt_info.prompt_class": "QuestionCompleteConcisePromptWithAnswerKey2",`
+   * TQA question IDs,  format `NDQ_{number}` 
+
+
+ *  GenQ Exam Cover and GenQ Exam Qrels  ( Generated questions, Self-rated): 
+   * `"llm": "google/flan-t5-large"`
+   * `"prompt_info.prompt_class": "QuestionSelfRatedUnanswerablePromptWithChoices",`
+   * question ID format `tqa2:{query_id}/{query_subtopic_id)/{md5_hash_of_question_text)`
+
+
+ *  not included ( TQA questions, Self-rated): 
+   * `"llm": "google/flan-t5-large"`
+   * `"prompt_info.prompt_class": "QuestionSelfRatedUnanswerablePromptWithChoices",`
+   * TQA question IDs,  format `NDQ_{number}` 
+
+
+
+
+EXAM grades for additional (omitted) question-answering  experiments for CAR Y3: [CAR-graded-squad2-t5-qa-tqa-exam--benchmarkY3test-exam-qrels-runs-with-text.jsonl.xz](EXAM-graded-data/CAR-graded-squad2-t5-qa-tqa-exam--benchmarkY3test-exam-qrels-runs-with-text.jsonl.xz) 
+ 
+ This file contains  Passages from official qrels files and the top 20 (per section-level query) of all participant submitted run files
+
+
+ * not included (TQA questions, squad2-finetuned model of FLAN-T5-large, verification with QA and Answer Verification)
+   * `"llm": "sjrhuschlee/flan-t5-large-squad2"`
+   * `"prompt_info.prompt_class": "QuestionCompleteConcisePromptWithAnswerKey2",`
+   * TQA question IDs,  format `NDQ_{number}` 
+   
+   
+ * not included (TQA questions, untuned model, prompt without instructions, verification with QA and Answer Verification)
+   * `"llm": "google/flan-t5-large"`
+   * `"prompt_info.prompt_class": "QuestionCompleteConcisePromptWithAnswerKey2",`
+   * TQA question IDs,  format `NDQ_{number}` 
+   
+   
+
 
 # Additional Results
 
+* Results on CAR Y3 [car-results/](car-results/)   
+  *  \*tsv are provide EXAM, n-EXAM and standard errors for each column in Table 3) 
+  * \*gnumeric provide the collated results for EXAM including the plot for Figure 2 (tab: "pretty").
 
 * Results from relevance-grading baslines (Sun, Fag, Thom):  [results-relevance-grading.md](results-relevance-grading.md)
 
