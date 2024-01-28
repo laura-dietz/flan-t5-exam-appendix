@@ -101,19 +101,19 @@ We implement Cohen's kappa as follows.
 
  EXAM grades for 
  
- *  TQA Exam Cover ( TQA questions, verification with QA and Answer Verification): 
+*  TQA Exam Cover ( TQA questions, verification with QA and Answer Verification): 
    * `"llm": "google/flan-t5-large"`
    * `"prompt_info.prompt_class": "QuestionCompleteConcisePromptWithAnswerKey2",`
    * TQA question IDs,  format `NDQ_{number}` 
 
 
- *  GenQ Exam Cover and GenQ Exam Qrels  ( Generated questions, Self-rated): 
+*  GenQ Exam Cover and GenQ Exam Qrels  ( Generated questions, Self-rated): 
    * `"llm": "google/flan-t5-large"`
    * `"prompt_info.prompt_class": "QuestionSelfRatedUnanswerablePromptWithChoices",`
    * question ID format `tqa2:{query_id}/{query_subtopic_id)/{md5_hash_of_question_text)`
 
 
- *  not included ( TQA questions, Self-rated): 
+*  not included ( TQA questions, Self-rated): 
    * `"llm": "google/flan-t5-large"`
    * `"prompt_info.prompt_class": "QuestionSelfRatedUnanswerablePromptWithChoices",`
    * TQA question IDs,  format `NDQ_{number}` 
