@@ -142,7 +142,7 @@ EXAM grades for additional (omitted) question-answering  experiments for CAR Y3:
 
 # Additional Results
 
-* Results on CAR Y3: 
+## Results on CAR Y3: 
 
  EXAM, n-EXAM and standard errors for each column in Table 3) 
 
@@ -150,9 +150,9 @@ EXAM grades for additional (omitted) question-answering  experiments for CAR Y3:
    *  [GenQ Exam Qrels](car-results//qrel-leaderboard-car-genq-self-rating.md)
    *  [TQA Exam Cover](car-results/leaderboard-car-tqa-cc-verified.md) 
    * [Squad2-fine-tuned](car-results/leaderboard-car-tqa-squad2-verified.md)    -- omitted -- 
-  *  <./car-results> \*tsv 
-  * <./car-results/leaderboard-car.gnumeric> provide the collated results for EXAM including the plot for Figure 2 (tab: "pretty").
+   *  <./car-results> \*tsv 
+   * <./car-results/leaderboard-car.gnumeric> provide the collated results for EXAM including the plot for Figure 2 (tab: "pretty").
 
-* Results from relevance-grading baslines (Sun, Fag, Thom):  [results-relevance-grading.md](results-relevance-grading.md)
+Results from relevance-grading baslines (Sun, Fag, Thom):  [results-relevance-grading.md](results-relevance-grading.md)
 
 
