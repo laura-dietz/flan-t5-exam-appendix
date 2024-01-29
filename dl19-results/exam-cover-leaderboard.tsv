@@ -1,0 +1,227 @@
+method	exam	+/-	exam-std	n-exam	+/-	n-exam-std	orig_TREC_leaderboard_rank	orig_EXAM_leaderboard_rank
+ICT-BERT2	0.733	+/-	0.032	0.79	+/-	0.031	18	
+ICT-CKNRM_B	0.733	+/-	0.032	0.79	+/-	0.031	21	
+ICT-CKNRM_B50	0.735	+/-	0.031	0.79	+/-	0.029	23	
+TUA1-1	0.742	+/-	0.029	0.795	+/-	0.026	10	
+TUW19-p1-f	0.772	+/-	0.026	0.832	+/-	0.024	14	
+TUW19-p1-re	0.756	+/-	0.028	0.814	+/-	0.025	16	
+TUW19-p2-f	0.767	+/-	0.026	0.828	+/-	0.023	17	
+TUW19-p2-re	0.758	+/-	0.027	0.817	+/-	0.024	20	
+TUW19-p3-f	0.781	+/-	0.026	0.842	+/-	0.024	13	
+TUW19-p3-re	0.756	+/-	0.028	0.814	+/-	0.026	15	
+UNH_bm25	0.686	+/-	0.037	0.734	+/-	0.036	36	
+UNH_exDL_bm25	0.207	+/-	0.048	0.212	+/-	0.048		
+_overall_	0.926	+/-	0.013	1	+/-	0		
+bm25base_ax_p	0.712	+/-	0.032	0.768	+/-	0.031	26	
+bm25base_p	0.714	+/-	0.032	0.769	+/-	0.03	33	
+bm25base_prf_p	0.702	+/-	0.035	0.755	+/-	0.034	28	
+bm25base_rm3_p	0.712	+/-	0.034	0.765	+/-	0.033	32	
+bm25tuned_ax_p	0.716	+/-	0.032	0.772	+/-	0.031	27	
+bm25tuned_p	0.705	+/-	0.03	0.76	+/-	0.03	35	
+bm25tuned_prf_p	0.707	+/-	0.035	0.759	+/-	0.034	25	
+bm25tuned_rm3_p	0.7	+/-	0.033	0.752	+/-	0.032	31	
+idst_bert_p1	0.744	+/-	0.031	0.798	+/-	0.028	1	
+idst_bert_p2	0.747	+/-	0.031	0.8	+/-	0.028	2	
+idst_bert_p3	0.747	+/-	0.032	0.8	+/-	0.029	3	
+idst_bert_pr1	0.74	+/-	0.032	0.792	+/-	0.029	7	
+idst_bert_pr2	0.747	+/-	0.031	0.799	+/-	0.028	6	
+ms_duet_passage	0.733	+/-	0.032	0.787	+/-	0.03	22	
+p_bert	0.747	+/-	0.028	0.8	+/-	0.025	5	
+p_exp_bert	0.744	+/-	0.029	0.798	+/-	0.026	8	
+p_exp_rm3_bert	0.747	+/-	0.029	0.8	+/-	0.025	4	
+runid2	0.707	+/-	0.031	0.76	+/-	0.029	29	
+runid3	0.747	+/-	0.031	0.8	+/-	0.028	12	
+runid4	0.742	+/-	0.031	0.795	+/-	0.029	11	
+runid5	0.714	+/-	0.031	0.767	+/-	0.029	30	
+srchvrs_ps_run1	0.716	+/-	0.031	0.773	+/-	0.03	34	
+srchvrs_ps_run2	0.756	+/-	0.029	0.81	+/-	0.026	19	
+srchvrs_ps_run3	0.756	+/-	0.027	0.816	+/-	0.025	24	
+test1	0.742	+/-	0.029	0.795	+/-	0.026	9	
+spearman	0.67			0.658				
+kendall	0.472			0.462				
+"EXAM scores produced with GradeFilter(model_name=None, prompt_class='QuestionSelfRatedUnanswerablePromptWithChoices', is_self_rated=None, min_self_rating=None, question_set='question-bank')"								
+min_rating	1							
+								
+								
+								
+method	exam	+/-	exam-std	n-exam	+/-	n-exam-std	orig_TREC_leaderboard_rank	orig_EXAM_leaderboard_rank
+ICT-BERT2	0.728	+/-	0.032	0.79	+/-	0.03	18	
+ICT-CKNRM_B	0.728	+/-	0.032	0.79	+/-	0.03	21	
+ICT-CKNRM_B50	0.735	+/-	0.031	0.798	+/-	0.029	23	
+TUA1-1	0.74	+/-	0.029	0.801	+/-	0.025	10	
+TUW19-p1-f	0.753	+/-	0.027	0.82	+/-	0.024	14	
+TUW19-p1-re	0.737	+/-	0.028	0.802	+/-	0.025	16	
+TUW19-p2-f	0.747	+/-	0.026	0.813	+/-	0.023	17	
+TUW19-p2-re	0.737	+/-	0.027	0.803	+/-	0.024	20	
+TUW19-p3-f	0.763	+/-	0.027	0.83	+/-	0.025	13	
+TUW19-p3-re	0.737	+/-	0.029	0.802	+/-	0.026	15	
+UNH_bm25	0.677	+/-	0.036	0.73	+/-	0.034	36	
+UNH_exDL_bm25	0.207	+/-	0.048	0.212	+/-	0.048		
+_overall_	0.916	+/-	0.015	1	+/-	0		
+bm25base_ax_p	0.695	+/-	0.031	0.757	+/-	0.03	26	
+bm25base_p	0.705	+/-	0.032	0.765	+/-	0.029	33	
+bm25base_prf_p	0.688	+/-	0.034	0.746	+/-	0.033	28	
+bm25base_rm3_p	0.695	+/-	0.034	0.753	+/-	0.032	32	
+bm25tuned_ax_p	0.698	+/-	0.031	0.76	+/-	0.03	27	
+bm25tuned_p	0.698	+/-	0.03	0.759	+/-	0.028	35	
+bm25tuned_prf_p	0.691	+/-	0.035	0.75	+/-	0.033	25	
+bm25tuned_rm3_p	0.691	+/-	0.033	0.748	+/-	0.031	31	
+idst_bert_p1	0.74	+/-	0.031	0.801	+/-	0.027	1	
+idst_bert_p2	0.74	+/-	0.031	0.8	+/-	0.028	2	
+idst_bert_p3	0.742	+/-	0.031	0.803	+/-	0.028	3	
+idst_bert_pr1	0.733	+/-	0.031	0.793	+/-	0.028	7	
+idst_bert_pr2	0.74	+/-	0.031	0.8	+/-	0.027	6	
+ms_duet_passage	0.723	+/-	0.032	0.786	+/-	0.03	22	
+p_bert	0.744	+/-	0.028	0.805	+/-	0.024	5	
+p_exp_bert	0.742	+/-	0.03	0.802	+/-	0.026	8	
+p_exp_rm3_bert	0.742	+/-	0.029	0.802	+/-	0.025	4	
+runid2	0.7	+/-	0.032	0.759	+/-	0.03	29	
+runid3	0.737	+/-	0.031	0.8	+/-	0.028	12	
+runid4	0.733	+/-	0.032	0.794	+/-	0.029	11	
+runid5	0.705	+/-	0.032	0.763	+/-	0.03	30	
+srchvrs_ps_run1	0.712	+/-	0.031	0.775	+/-	0.03	34	
+srchvrs_ps_run2	0.747	+/-	0.029	0.809	+/-	0.025	19	
+srchvrs_ps_run3	0.744	+/-	0.028	0.811	+/-	0.026	24	
+test1	0.74	+/-	0.029	0.801	+/-	0.025	9	
+spearman	0.736			0.671				
+kendall	0.537			0.46				
+"EXAM scores produced with GradeFilter(model_name=None, prompt_class='QuestionSelfRatedUnanswerablePromptWithChoices', is_self_rated=None, min_self_rating=None, question_set='question-bank')"								
+min_rating	2							
+								
+								
+								
+method	exam	+/-	exam-std	n-exam	+/-	n-exam-std	orig_TREC_leaderboard_rank	orig_EXAM_leaderboard_rank
+ICT-BERT2	0.686	+/-	0.03	0.761	+/-	0.029	18	
+ICT-CKNRM_B	0.686	+/-	0.03	0.761	+/-	0.029	21	
+ICT-CKNRM_B50	0.693	+/-	0.034	0.764	+/-	0.032	23	
+TUA1-1	0.684	+/-	0.032	0.752	+/-	0.03	10	
+TUW19-p1-f	0.716	+/-	0.031	0.789	+/-	0.028	14	
+TUW19-p1-re	0.686	+/-	0.034	0.755	+/-	0.032	16	
+TUW19-p2-f	0.714	+/-	0.027	0.79	+/-	0.024	17	
+TUW19-p2-re	0.695	+/-	0.03	0.77	+/-	0.027	20	
+TUW19-p3-f	0.726	+/-	0.031	0.8	+/-	0.028	13	
+TUW19-p3-re	0.688	+/-	0.034	0.759	+/-	0.032	15	
+UNH_bm25	0.647	+/-	0.037	0.71	+/-	0.036	36	
+UNH_exDL_bm25	0.188	+/-	0.047	0.196	+/-	0.048		
+_overall_	0.9	+/-	0.016	1	+/-	0		
+bm25base_ax_p	0.667	+/-	0.031	0.738	+/-	0.03	26	
+bm25base_p	0.677	+/-	0.032	0.748	+/-	0.03	33	
+bm25base_prf_p	0.66	+/-	0.035	0.728	+/-	0.035	28	
+bm25base_rm3_p	0.658	+/-	0.036	0.726	+/-	0.036	32	
+bm25tuned_ax_p	0.665	+/-	0.032	0.735	+/-	0.03	27	
+bm25tuned_p	0.663	+/-	0.031	0.733	+/-	0.03	35	
+bm25tuned_prf_p	0.665	+/-	0.035	0.734	+/-	0.033	25	
+bm25tuned_rm3_p	0.658	+/-	0.034	0.727	+/-	0.033	31	
+idst_bert_p1	0.702	+/-	0.031	0.774	+/-	0.028	1	
+idst_bert_p2	0.707	+/-	0.031	0.779	+/-	0.028	2	
+idst_bert_p3	0.707	+/-	0.032	0.779	+/-	0.029	3	
+idst_bert_pr1	0.688	+/-	0.033	0.759	+/-	0.031	7	
+idst_bert_pr2	0.695	+/-	0.032	0.765	+/-	0.029	6	
+ms_duet_passage	0.684	+/-	0.035	0.754	+/-	0.034	22	
+p_bert	0.695	+/-	0.031	0.765	+/-	0.029	5	
+p_exp_bert	0.7	+/-	0.032	0.77	+/-	0.03	8	
+p_exp_rm3_bert	0.7	+/-	0.031	0.77	+/-	0.029	4	
+runid2	0.674	+/-	0.034	0.744	+/-	0.032	29	
+runid3	0.695	+/-	0.033	0.766	+/-	0.031	12	
+runid4	0.691	+/-	0.034	0.761	+/-	0.032	11	
+runid5	0.681	+/-	0.034	0.751	+/-	0.032	30	
+srchvrs_ps_run1	0.681	+/-	0.031	0.756	+/-	0.03	34	
+srchvrs_ps_run2	0.712	+/-	0.031	0.783	+/-	0.029	19	
+srchvrs_ps_run3	0.716	+/-	0.029	0.795	+/-	0.027	24	
+test1	0.684	+/-	0.032	0.752	+/-	0.03	9	
+spearman	0.717			0.668				
+kendall	0.54			0.479				
+"EXAM scores produced with GradeFilter(model_name=None, prompt_class='QuestionSelfRatedUnanswerablePromptWithChoices', is_self_rated=None, min_self_rating=None, question_set='question-bank')"								
+min_rating	3							
+								
+								
+								
+method	exam	+/-	exam-std	n-exam	+/-	n-exam-std	orig_TREC_leaderboard_rank	orig_EXAM_leaderboard_rank
+ICT-BERT2	0.63	+/-	0.033	0.719	+/-	0.034	18	
+ICT-CKNRM_B	0.63	+/-	0.033	0.719	+/-	0.034	21	
+ICT-CKNRM_B50	0.647	+/-	0.035	0.733	+/-	0.035	23	
+TUA1-1	0.649	+/-	0.033	0.733	+/-	0.032	10	
+TUW19-p1-f	0.677	+/-	0.03	0.768	+/-	0.029	14	
+TUW19-p1-re	0.642	+/-	0.034	0.726	+/-	0.033	16	
+TUW19-p2-f	0.66	+/-	0.03	0.752	+/-	0.029	17	
+TUW19-p2-re	0.644	+/-	0.031	0.732	+/-	0.03	20	
+TUW19-p3-f	0.681	+/-	0.031	0.772	+/-	0.03	13	
+TUW19-p3-re	0.64	+/-	0.034	0.724	+/-	0.034	15	
+UNH_bm25	0.591	+/-	0.039	0.662	+/-	0.038	36	
+UNH_exDL_bm25	0.174	+/-	0.045	0.184	+/-	0.047		
+_overall_	0.877	+/-	0.018	1	+/-	0		
+bm25base_ax_p	0.628	+/-	0.031	0.713	+/-	0.031	26	
+bm25base_p	0.635	+/-	0.032	0.723	+/-	0.031	33	
+bm25base_prf_p	0.621	+/-	0.035	0.703	+/-	0.036	28	
+bm25base_rm3_p	0.628	+/-	0.035	0.711	+/-	0.035	32	
+bm25tuned_ax_p	0.619	+/-	0.032	0.704	+/-	0.032	27	
+bm25tuned_p	0.626	+/-	0.031	0.712	+/-	0.03	35	
+bm25tuned_prf_p	0.621	+/-	0.035	0.704	+/-	0.035	25	
+bm25tuned_rm3_p	0.621	+/-	0.033	0.705	+/-	0.032	31	
+idst_bert_p1	0.656	+/-	0.032	0.744	+/-	0.031	1	
+idst_bert_p2	0.663	+/-	0.031	0.752	+/-	0.03	2	
+idst_bert_p3	0.663	+/-	0.032	0.751	+/-	0.031	3	
+idst_bert_pr1	0.647	+/-	0.032	0.733	+/-	0.031	7	
+idst_bert_pr2	0.651	+/-	0.031	0.738	+/-	0.03	6	
+ms_duet_passage	0.637	+/-	0.036	0.723	+/-	0.035	22	
+p_bert	0.665	+/-	0.031	0.752	+/-	0.029	5	
+p_exp_bert	0.665	+/-	0.033	0.751	+/-	0.031	8	
+p_exp_rm3_bert	0.663	+/-	0.032	0.748	+/-	0.03	4	
+runid2	0.633	+/-	0.034	0.716	+/-	0.032	29	
+runid3	0.644	+/-	0.034	0.729	+/-	0.034	12	
+runid4	0.64	+/-	0.035	0.724	+/-	0.035	11	
+runid5	0.644	+/-	0.034	0.729	+/-	0.032	30	
+srchvrs_ps_run1	0.64	+/-	0.031	0.73	+/-	0.03	34	
+srchvrs_ps_run2	0.667	+/-	0.033	0.755	+/-	0.031	19	
+srchvrs_ps_run3	0.672	+/-	0.029	0.77	+/-	0.029	24	
+test1	0.647	+/-	0.033	0.73	+/-	0.032	9	
+spearman	0.702			0.67				
+kendall	0.502			0.488				
+"EXAM scores produced with GradeFilter(model_name=None, prompt_class='QuestionSelfRatedUnanswerablePromptWithChoices', is_self_rated=None, min_self_rating=None, question_set='question-bank')"								
+min_rating	4							
+								
+								
+								
+method	exam	+/-	exam-std	n-exam	+/-	n-exam-std	orig_TREC_leaderboard_rank	orig_EXAM_leaderboard_rank
+ICT-BERT2	0.205	+/-	0.031	0.422	+/-	0.05	18	
+ICT-CKNRM_B	0.205	+/-	0.031	0.422	+/-	0.05	21	
+ICT-CKNRM_B50	0.233	+/-	0.035	0.473	+/-	0.059	23	
+TUA1-1	0.24	+/-	0.034	0.526	+/-	0.06	10	
+TUW19-p1-f	0.242	+/-	0.035	0.511	+/-	0.059	14	
+TUW19-p1-re	0.226	+/-	0.036	0.467	+/-	0.063	16	
+TUW19-p2-f	0.223	+/-	0.035	0.468	+/-	0.059	17	
+TUW19-p2-re	0.223	+/-	0.036	0.46	+/-	0.061	20	
+TUW19-p3-f	0.24	+/-	0.035	0.504	+/-	0.06	13	
+TUW19-p3-re	0.23	+/-	0.036	0.474	+/-	0.062	15	
+UNH_bm25	0.177	+/-	0.029	0.356	+/-	0.048	36	
+UNH_exDL_bm25	0.06	+/-	0.023	0.101	+/-	0.038		
+_overall_	0.391	+/-	0.035	1	+/-	0		
+bm25base_ax_p	0.195	+/-	0.032	0.407	+/-	0.053	26	
+bm25base_p	0.198	+/-	0.032	0.388	+/-	0.052	33	
+bm25base_prf_p	0.193	+/-	0.031	0.412	+/-	0.054	28	
+bm25base_rm3_p	0.193	+/-	0.032	0.386	+/-	0.052	32	
+bm25tuned_ax_p	0.184	+/-	0.031	0.384	+/-	0.052	27	
+bm25tuned_p	0.195	+/-	0.031	0.398	+/-	0.05	35	
+bm25tuned_prf_p	0.2	+/-	0.032	0.42	+/-	0.056	25	
+bm25tuned_rm3_p	0.186	+/-	0.031	0.37	+/-	0.051	31	
+idst_bert_p1	0.24	+/-	0.035	0.518	+/-	0.057	1	
+idst_bert_p2	0.242	+/-	0.035	0.522	+/-	0.056	2	
+idst_bert_p3	0.244	+/-	0.035	0.521	+/-	0.058	3	
+idst_bert_pr1	0.235	+/-	0.035	0.503	+/-	0.059	7	
+idst_bert_pr2	0.237	+/-	0.034	0.508	+/-	0.058	6	
+ms_duet_passage	0.195	+/-	0.033	0.404	+/-	0.057	22	
+p_bert	0.23	+/-	0.034	0.502	+/-	0.058	5	
+p_exp_bert	0.24	+/-	0.035	0.506	+/-	0.057	8	
+p_exp_rm3_bert	0.233	+/-	0.035	0.487	+/-	0.058	4	
+runid2	0.186	+/-	0.03	0.374	+/-	0.057	29	
+runid3	0.247	+/-	0.035	0.546	+/-	0.061	12	
+runid4	0.247	+/-	0.035	0.546	+/-	0.061	11	
+runid5	0.186	+/-	0.031	0.374	+/-	0.058	30	
+srchvrs_ps_run1	0.202	+/-	0.029	0.428	+/-	0.053	34	
+srchvrs_ps_run2	0.221	+/-	0.033	0.455	+/-	0.056	19	
+srchvrs_ps_run3	0.216	+/-	0.032	0.446	+/-	0.054	24	
+test1	0.24	+/-	0.034	0.526	+/-	0.06	9	
+spearman	0.859			0.875				
+kendall	0.658			0.675				
+"EXAM scores produced with GradeFilter(model_name=None, prompt_class='QuestionSelfRatedUnanswerablePromptWithChoices', is_self_rated=None, min_self_rating=None, question_set='question-bank')"								
+min_rating	5							
