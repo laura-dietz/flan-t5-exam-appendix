@@ -13,7 +13,7 @@ Additionally there is some special handling of true/false questions, as given be
 
 
 
-##  Normalization and Stringedit distance check
+##  Normalization and String Edit distance check
 
 ```python
 
