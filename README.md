@@ -29,14 +29,14 @@ In Figure 2, due to a drag-and-drop error the methods "UvABottomUpCha." and "UvA
 
 EXAM, n-EXAM and standard errors
 
-  * [GenQ ExamCover DL19](dl19-results/EXAM-Cover-leaderboard-dl19-subqueries-self-rating-3.tsv)
-  * [GenQ ExamQrels DL19](dl19-results/exam-qrels-leaderboard-dl19-qrels-genq-self-rating-3.tsv)  -  [qrels file](dl19-results/dl19exam-3.qrels)
+  * [GenQ ExamCover DL19](dl19-results/EXAM-Cover-leaderboard-dl19-subqueries-self-rating-3.md)
+  * [GenQ ExamQrels DL19](dl19-results/exam-qrels-leaderboard-dl19-qrels-genq-self-rating-3.md)  -  [qrels file](dl19-results/dl19exam-3.qrels)
   
   Also avaulable as *TSV in folder `./dl19-results`
   
   
-  * [GenQ ExamCover DL20](dl20-results/EXAM-Cover-leaderboard-dl20-subqueries-self-rating-4.tsv)
-  * [GenQ ExamQrels DL20](dl20-results/leaderboard-dl20-qrels-genq-self-rating-4.tsv)    -  [qrels file](dl20-results/dl20-exam-4.qrels)
+  * [GenQ ExamCover DL20](dl20-results/EXAM-Cover-leaderboard-dl20-subqueries-self-rating-4.md)
+  * [GenQ ExamQrels DL20](dl20-results/exam-qrels-leaderboard-dl20-qrels-genq-self-rating-4.md)    -  [qrels file](dl20-results/dl20-exam-4.qrels)
   Also avaulable as *TSV in folder `./dl20-results`
   
 
