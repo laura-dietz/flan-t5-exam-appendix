@@ -12,6 +12,15 @@ In Figure 2, due to a drag-and-drop error the methods "UvABottomUpCha." and "UvA
 
 # Detailed Experimental Results
 
+## Generated questions
+
+* CAR:  [car-y3-genq.jsonl.gz](car-y3-questions/car-y3-genq.jsonl.gz)
+* DL19: [dl19-genq.jsonl.gz](dl19-questions/dl19-genq.jsonl.gz)
+* DL20: [dl20-genq.jsonl.gz](dl20-questions/dl20-genq.jsonl.gz)
+
+
+For CAR we also use corresponding questions from the [TQA dataset](https://allenai.org/data/tqa)
+
 ## Results on CAR Y3: 
 
  EXAM, n-EXAM and standard errors for each column in Table 3):
