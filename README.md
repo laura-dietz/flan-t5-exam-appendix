@@ -27,7 +27,21 @@ In Figure 2, due to a drag-and-drop error the methods "UvABottomUpCha." and "UvA
 
 ## Results on TREC DL
 
+EXAM, n-EXAM and standard errors
+
+  * [GenQ ExamCover DL19](dl19-results/EXAM-Cover-leaderboard-dl19-subqueries-self-rating-3.tsv)
+  * [GenQ ExamQrels DL19](dl19-results/exam-qrels-leaderboard-dl19-qrels-genq-self-rating-3.tsv)  -  [qrels file](dl19-results/dl19exam-3.qrels)
+  
+  Also avaulable as *TSV in folder `./dl19-results`
+  
+  
+  * [GenQ ExamCover DL20](dl20-results/EXAM-Cover-leaderboard-dl20-subqueries-self-rating-4.tsv)
+  * [GenQ ExamQrels DL20](dl20-results/leaderboard-dl20-qrels-genq-self-rating-4.tsv)    -  [qrels file](dl20-results/dl20-exam-4.qrels)
+  Also avaulable as *TSV in folder `./dl20-results`
+  
+
 Results from relevance-grading baslines (Sun, Fag, Thom):  [results-relevance-grading.md](results-relevance-grading.md)
+
 
 
 ## Test Collections
@@ -118,6 +132,8 @@ We implement Cohen's kappa as follows:
 
 ## Raw EXAM graded data
 
+### CAR-Y3
+
  CAR Y3:  [CAR-graded-t5-rating-genq-tqa-rating-cc-exam-qrel-runs-result.jsonl.xz](EXAM-graded-data/CAR-graded-t5-rating-genq-tqa-rating-cc-exam-qrel-runs-result.jsonl.xz) 
  
  This file contains passages from official qrels files and the top 20 (per section-level query) of all run files submitted by participants to the TREC track.
@@ -158,6 +174,20 @@ This file contains the same passages. Exam grades for the following variation ar
    * `"llm": "google/flan-t5-large"`
    * `"prompt_info.prompt_class": "QuestionCompleteConcisePromptWithAnswerKey2",`
    * TQA question IDs,  format `NDQ_{number}` 
-   
-   
+
+### TREC DL 2019/2020
+ 
+DL19:  [DL19-graded-t5-rating-genq-exam-qrels-runs-with-text.jsonl.gz](EXAM-graded-data/DL19-graded-t5-rating-genq-exam-qrels-runs-with-text.jsonl.gz) 
+DL20:  [DL20-graded-t5-rating-genq-exam-qrels-runs-with-text.jsonl.gz](EXAM-graded-data/DL20-graded-t5-rating-genq-exam-qrels-runs-with-text.jsonl.gz) 
+ 
+ This file contains passages from official qrels files and the top 20 (per section-level query) of all run files submitted by participants to the TREC track.
+
+EXAM grades for the following variations are contained (obtained with the filter criteria below):
+
+*  GenQ Exam Cover and GenQ Exam Qrels  ( Generated questions, Self-rated): 
+   * `"llm": "google/flan-t5-large"`
+   * `"prompt_info.prompt_class": "QuestionSelfRatedUnanswerablePromptWithChoices",`
+   * question ID format `tqa2:{query_id}/{md5_hash_of_question_text)`
+
+ 
 
